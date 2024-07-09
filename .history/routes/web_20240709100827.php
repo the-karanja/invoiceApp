@@ -6,4 +6,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/mpesa/initiate', [MpesaController::class, 'initiate']);
+Rout
